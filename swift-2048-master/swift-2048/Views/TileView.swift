@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Math
 
 /// A view representing a single swift-2048 tile.
 class TileView : UIView {
@@ -52,7 +53,7 @@ class TileView : UIView {
     }
     
     
-    //这里本应该写一个求2的幂的函数
+    //这里本应该写一个求以2为底score的对数
     func getNumberImage(score:Int) ->Int {
         var titleNumber:Int = 0
         
