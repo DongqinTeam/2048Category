@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Math
 
 /// A view representing a single swift-2048 tile.
 class TileView : UIView {
